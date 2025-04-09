@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test CRM Dashboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: #0078d4;
+            color: white;
+            padding: 15px;
+        }
+        .sidebar {
+            width: 200px;
+            background-color: #f3f3f3;
+            height: calc(100vh - 50px);
+            float: left;
+            padding: 10px;
+        }
+        .main-content {
+            margin-left: 220px;
+            padding: 20px;
+        }
+        .menu-item {
+            padding: 10px;
+            margin: 5px 0;
+            background-color: #e9e9e9;
+            cursor: pointer;
+        }
+        .card {
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Test CRM Dashboard</h1>
+    </div>
+    <div class="sidebar">
+        <div class="menu-item">Dashboard</div>
+        <div class="menu-item">Contacts</div>
+        <div class="menu-item">Leads</div>
+        <div class="menu-item">Opportunities</div>
+        <div class="menu-item">Reports</div>
+        <div class="menu-item">Settings</div>
+    </div>
+    <div class="main-content">
+        <h2>Welcome to your CRM Dashboard</h2>
+        <div class="card">
+            <h3>Recent Activities</h3>
+            <table>
+                <tr>
+                    <th>Date</th>
+                    <th>Activity</th>
+                    <th>Status</th>
+                </tr>
+                <tr>
+                    <td>Apr 9, 2025</td>
+                    <td>Call with Client A</td>
+                    <td>Completed</td>
+                </tr>
+                <tr>
+                    <td>Apr 8, 2025</td>
+                    <td>Email to Client B</td>
+                    <td>Sent</td>
+                </tr>
+                <tr>
+                    <td>Apr 7, 2025</td>
+                    <td>Meeting with Client C</td>
+                    <td>Scheduled</td>
+                </tr>
+            </table>
+        </div>
+        <div class="card">
+            <h3>Sales Pipeline</h3>
+            <table>
+                <tr>
+                    <th>Opportunity</th>
+                    <th>Value</th>
+                    <th>Stage</th>
+                    <th>Probability</th>
+                </tr>
+                <tr>
+                    <td>Project X</td>
+                    <td>$75,000</td>
+                    <td>Negotiation</td>
+                    <td>75%</td>
+                </tr>
+                <tr>
+                    <td>Project Y</td>
+                    <td>$120,000</td>
+                    <td>Proposal</td>
+                    <td>50%</td>
+                </tr>
+                <tr>
+                    <td>Project Z</td>
+                    <td>$45,000</td>
+                    <td>Closing</td>
+                    <td>90%</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
